@@ -80,6 +80,8 @@ usethis::use_vignette("myfinalproject")
 
 devtools::build_vignettes()
 
+# To import the dataset I created, use dataset command
+
 Dataset <- read.csv("C:/Users/Dell/OneDrive/Desktop/JAHNAVI/Dataset.csv")
   View(Dataset)
 
